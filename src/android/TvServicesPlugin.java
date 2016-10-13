@@ -174,7 +174,7 @@ public class TvServicesPlugin extends CordovaPlugin {
      */
     private void updateNotification(JSONObject settings) {
         if (isBind) {
-            mService.updateNotification(settings);
+            mTvServices.updateNotification(settings);
         }
     }
 
