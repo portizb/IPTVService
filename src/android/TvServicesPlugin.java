@@ -2,8 +2,6 @@ package com.movistar.tvservices.cordova.plugin;
 
 import org.apache.cordova.*;
 
-import com.movistar.tvservices.cordova.plugin.TvServices;
-
 import android.content.Context;
 import android.content.Intent;
 import android.content.ComponentName;
@@ -39,7 +37,7 @@ public class TvServicesPlugin extends CordovaPlugin {
     // Default settings for the notification
     private static JSONObject defaultSettings = new JSONObject();
 
-    TVServices mTvServices;
+    TvServices mTvServices;
 
 
     // Used to (un)bind the service to with the activity
