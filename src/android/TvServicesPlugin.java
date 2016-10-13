@@ -2,6 +2,13 @@ package com.movistar.tvservices.cordova.plugin;
 
 import org.apache.cordova.*;
 
+import com.movistar.tvservices.cordova.plugin.TvServices;
+
+import android.content.Intent;
+import android.content.ServiceConnetion;
+
+import android.app.Activity;
+
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.json.JSONException;
