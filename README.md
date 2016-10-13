@@ -1,4 +1,4 @@
-# Cordova Movista TV Services Plugin
+# Cordova Movistar TV Services Plugin
 
 <!-- START table-of-contents -->
 **Table of Contents**
