@@ -44,8 +44,8 @@ public class TvServicesPlugin extends CordovaPlugin {
     private final ServiceConnection connection = new ServiceConnection() {
         @Override
         public void onServiceConnected(ComponentName name, IBinder service) {
-            TVServices.ForegroundBinder binder =
-                    (TVServices.ForegroundBinder) service;
+            TvServices.ForegroundBinder binder =
+                    (TvServices.ForegroundBinder) service;
             mTvServices = binder.getService();
         }
 
