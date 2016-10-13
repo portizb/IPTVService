@@ -1,4 +1,4 @@
-# Cordova Movistar+ TV Services Plugin
+# Cordova Movista TV Services Plugin
 
 <!-- START table-of-contents -->
 **Table of Contents**
@@ -12,7 +12,7 @@
 
 ## Overview
 
-This Cordova backgrund service plugin for Android is used to obtain the TV services of Movistar+ Backend such as TV channels list and electronic program guide.
+This Cordova backgrund service plugin for Android is used to obtain the TV services of Movistar backend such as TV channels list and electronic program guide.
 
 ## Building for Android
 
