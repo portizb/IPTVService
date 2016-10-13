@@ -15,7 +15,7 @@ public class TvServicesPlugin extends CordovaPlugin {
         ACTIVATE, DEACTIVATE, FAILURE
     }
 
-    private static final String LOG_TAG = "TvServicesPlugin";
+    private static final String LOG_TAG = TvServicesPlugin.class.getSimpleName();
 
     // Plugin namespace
     private static final String JS_NAMESPACE =
