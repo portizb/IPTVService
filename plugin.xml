@@ -40,9 +40,12 @@
             
       <config-file target="AndroidManifest.xml" parent="/manifest">
         <uses-permission android:name="android.permission.WAKE_LOCK" />
+<!--
         <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+-->
       </config-file>
 
+<!--
       <config-file target="AndroidManifest.xml" parent="/manifest/application">
         <receiver android:name="com.movistar.tvservices.cordova.plugin.BootReceiver">
            <intent-filter>
@@ -50,7 +53,7 @@
            </intent-filter>
         </receiver>
       </config-file>
-            
+-->         
       <!-- cordova plugin src files -->
       <source-file src="src/android/TvServicesPlugin.java" target-dir="src/com/movistar/tvservices/cordova/plugin" />
       <source-file src="src/android/TvServices.java" target-dir="src/com/movistar/tvservices/cordova/plugin" />
