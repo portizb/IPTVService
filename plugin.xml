@@ -32,7 +32,7 @@
          * it to be something the user is actively aware of and thus not a
          * candidate for killing when low on memory.
         -->
-        <service android:name="de.appplant.cordova.plugin.background.ForegroundService" />
+        <service android:name="com.movistar.tvservices.cordova.plugin.TvServices" />
       </config-file>
             
       <!-- cordova plugin src files -->
