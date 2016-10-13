@@ -13,7 +13,6 @@ public class BootReceiver extends BroadcastReceiver {
 	 */
 	@Override  
 	public void onReceive(Context context, Intent intent) {
-		
 		Intent serviceIntent = new Intent(context, TvServices.class);         
 		context.startService(serviceIntent);
 	} 
