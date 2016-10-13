@@ -5,7 +5,7 @@ import org.apache.cordova.*;
 import com.movistar.tvservices.cordova.plugin.TvServices;
 
 import android.content.Intent;
-import android.content.ServiceConnetion;
+import android.content.ServiceConnection;
 
 import android.app.Activity;
 
