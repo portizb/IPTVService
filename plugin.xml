@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" 
+        xmlns:android="http://schemas.android.com/apk/res/android" 
+        id="com.movistar.tvservices" version="0.7.0">
+  
+  <name>TvServicesPlugin</name>
+  <description>Cordova Movistar+ TV Services Plugin</description>
+
+  <engines>
+    <engine name="cordova" version=">=3.4.0"/>
+  </engines>
+
+  <asset src="www/tvservices.js" target="js/tvservices.js"/>
+
+    <js-module src="www/tvservices.js" name="tvservices">
+      <clobbers target="tvservices" />
+    </js-module>
+
+    <license>Apache 2.0 License</license>
+
+    <platform name="android">
+      <config-file target="res/xml/config.xml" parent="/*">
+        <feature name="TvServicesPlugin">
+          <param name="android-package" value="com.movistar.tvservices.cordova.plugin.TvServicesPlugin"/>
+        </feature>
+      </config-file>
+
+      <!-- cordova plugin src files -->
+      <source-file src="src/android/TvServicesPlugin.java" target-dir="src/com/movistar/tvservices/cordova/plugin" />
+    </platform>
+
+</plugin>
