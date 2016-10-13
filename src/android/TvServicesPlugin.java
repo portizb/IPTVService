@@ -19,7 +19,7 @@ public class TvServicesPlugin extends CordovaPlugin {
 
     // Plugin namespace
     private static final String JS_NAMESPACE =
-            "cordova.plugins.backgroundMode";
+            "cordova.plugins.tvServices";
     // Flag indicates if the app is in background or foreground
     private boolean inBackground = false;
     // Flag indicates if the plugin is enabled or disabled
@@ -179,7 +179,7 @@ public class TvServicesPlugin extends CordovaPlugin {
         if (isDisabled || isBind)
             return;
         Intent intent = new Intent(
-                context, ForegroundService.class);
+                context, TvServices.class);
         try {
             context.bindService(intent,
                     connection, Context.BIND_AUTO_CREATE);
@@ -198,7 +198,7 @@ public class TvServicesPlugin extends CordovaPlugin {
     private void stopService() {
         Activity context = cordova.getActivity();
         Intent intent = new Intent(
-                context, ForegroundService.class);
+                context, TvServices.class);
         if (!isBind)
             return;
         fireEvent(Event.DEACTIVATE, null);
