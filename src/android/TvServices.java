@@ -1,4 +1,4 @@
-package com.movistar.cordova.plugin.tvservices;
+package com.movistar.tvservices.cordova.plugin;
 
 import android.app.Notification;
 import android.app.NotificationManager;
