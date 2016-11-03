@@ -1,4 +1,4 @@
-# Cordova Movistar TV Services Plugin
+# Cordova Movistar+ IPTV Service Plugin
 
 <!-- START table-of-contents -->
 **Table of Contents**
