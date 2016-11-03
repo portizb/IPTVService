@@ -12,7 +12,7 @@
 
 ## Overview
 
-This Cordova backgrund service plugin for Android is used to obtain the TV services of Movistar backend such as TV channels list and electronic program guide.
+This Cordova service plugin for Android is used to obtain a RTP/UDP unicast/multicast traffic to decode and playback IPTV live channels. It forwards UDP traffic from a given multicast subscription from Movistar+ IPTV backend to the android native video player.
 
 ## Building for Android
 
