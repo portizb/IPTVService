@@ -1,4 +1,4 @@
-# Cordova Movistar+ IPTV Service Plugin
+# Cordova IPTV Service Plugin
 
 <!-- START table-of-contents -->
 **Table of Contents**
@@ -12,7 +12,7 @@
 
 ## Overview
 
-This Cordova service plugin for Android is used to obtain a RTP/UDP unicast/multicast traffic to decode and playback IPTV live channels. It forwards UDP traffic from a given multicast subscription from Movistar+ IPTV backend to the android native video player.
+This Cordova service plugin for Android is used to obtain a RTP/UDP unicast/multicast traffic to decode and playback IPTV live channels. It forwards UDP traffic from a given multicast subscription from IPTV backend to the android native video player.
 
 ## Building for Android
 
